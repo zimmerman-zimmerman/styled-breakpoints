@@ -8,9 +8,10 @@ import type {
 } from '../models';
 
 export const DEFAULT_BREAKS_MAP: Breakpoints = {
-  tablet: '768px',
-  desktop: '992px',
-  lgDesktop: '1200px',
+  sm: '576px',
+  md: '768px',
+  lg: '1024px',
+   xl: '1920px'
 };
 
 export const DEFAULT_BREAKS: ThemeWithBreaks = {
